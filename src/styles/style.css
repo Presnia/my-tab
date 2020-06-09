@@ -1,0 +1,28 @@
+body {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100vw;
+  justify-content: center;
+}
+table {
+  width: 96%;
+  margin-top: 40px;
+  border-collapse: collapse;
+}
+th {
+  text-align: right;
+  border: none;
+}
+td {
+  height: 2vw;
+  border: 1px solid blue;
+}
+#col-1 {
+  width: 11vw;
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+[row-]  
+
+
