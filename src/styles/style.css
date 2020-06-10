@@ -5,7 +5,7 @@ body {
   height: 100vw;
   justify-content: center;
 }
-table {
+.tab-1 {
   width: 96%;
   margin-top: 40px;
   border-collapse: collapse;
@@ -14,15 +14,175 @@ th {
   text-align: right;
   border: none;
 }
-td {
-  height: 2vw;
-  border: 1px solid blue;
+.tab-1 td {
+  height: 3vw;
+  /* width: 5vw; */
+  border: 1px solid rgb(190, 190, 190);
 }
+.tab-1 #col-1 {
+  width: 11vw;
+  text-transform: uppercase;
+  padding-left: 20px;
+  color: white;
+  background-color: rgb(125, 20, 201);
+  border: 1px solid white;
+}
+.tab-2 {
+  display: none;
+  position: absolute;
+  width: 96%;
+  margin-top: 40px;
+  border-collapse: collapse;
+  z-index: -1;
+}
+
+th {
+  text-align: right;
+  border: none;
+}
+
+td {
+  height: 3vw;
+  /* width: 5vw; */
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70%;
+  color: white;
+}
+
 #col-1 {
   width: 11vw;
   text-transform: uppercase;
   padding-left: 20px;
+  font-size: 100%;
+  text-align: left;
 }
-[row-]  
-
-
+#row-1 .kick {
+  background-color: darkcyan;
+}
+#row-1 .kick-m {
+  background-color: rgb(214, 68, 68);
+}
+#row-1 .kick-h {
+  background-color: rgb(253, 120, 97);
+}
+#row-2 .snare {
+  background-color: rgb(97, 70, 252);
+}
+#row-2 .snare-h {
+  background-color: rgb(253, 120, 97);
+}
+#row-3 .hi-hat-low {
+  background-color: rgb(97, 70, 252);
+}
+#row-3 .hi-hat-m {
+  background-color: rgb(214, 68, 68);
+}
+#row-3 .hi-hat {
+  background-color: rgb(253, 120, 97);
+}
+#row-3 .hi-hat-h {
+  background-color: rgb(250, 250, 95);
+  color: tomato;
+}
+#row-4 .cymbals-l {
+  background-color: rgb(97, 70, 252);
+}
+#row-4 .cymbals-m {
+  background-color: rgb(253, 120, 97);
+}
+#row-4 .cymbals-h {
+  background-color: rgb(250, 250, 95);
+  color: tomato;
+}
+#row-5 .sub-bass {
+  background-color: rgb(47, 201, 185);
+}
+#row-5 .bass {
+  background-color: rgb(97, 70, 252);
+}
+#row-5 .bass-m {
+  background-color: rgb(214, 68, 68);
+}
+#row-5 .bass-h {
+  background-color: rgb(253, 120, 97);
+}
+#row-6 .guitar-l {
+  background-color: darkcyan;
+}
+#row-6 .guitar {
+  background-color: rgb(97, 70, 252);
+}
+#row-6 .guitar-h {
+  background-color: rgb(253, 120, 97);
+}
+#row-7 .ac-l {
+  background-color: darkcyan;
+}
+#row-7 .ac-mll {
+  background-color: rgb(97, 70, 252);
+}
+#row-7 .ac-ml {
+  background-color: rgb(214, 68, 68);
+}
+#row-7 .ac-m {
+  background-color: rgb(253, 120, 97);
+}
+#row-8 .organ-l {
+  background-color: darkcyan;
+}
+#row-8 .organ {
+  background-color: rgb(253, 120, 97);
+}
+#row-9 .piano-l {
+  background-color: rgb(47, 201, 185);
+}
+#row-9 .piano {
+  background-color: darkcyan;
+}
+#row-9 .piano-m {
+  background-color: rgb(253, 120, 97);
+}
+#row-9 .piano-h {
+  background-color: rgb(250, 250, 95);
+  color: rgb(253, 120, 97);
+}
+#row-9 .piano-hh {
+  background-color: rgb(255, 255, 183);
+  color: rgb(253, 120, 97);
+}
+#row-10 .brass-l {
+  background-color: rgb(97, 70, 252);
+}
+#row-10 .brass-m {
+  background-color: rgb(253, 120, 97);
+}
+#row-10 .brass-h {
+  background-color: rgb(250, 250, 95);
+  color: rgb(253, 120, 97);
+}
+#row-10 .brass-hh {
+  background-color: rgb(255, 255, 183);
+  color: rgb(253, 120, 97);
+}
+#row-11 .strings {
+  background-color: rgb(97, 70, 252);
+}
+#row-11 .strings-h {
+  background-color: rgb(250, 250, 95);
+  color: rgb(253, 120, 97);
+}
+#row-12 .vocal-l {
+  background-color: darkcyan;
+}
+#row-12 .vocal {
+  background-color: rgb(97, 70, 252);
+}
+#row-12 .vocal-h {
+  background-color: rgb(253, 120, 97);
+}
+#row-12 .vocal-hh {
+  background-color: rgb(250, 250, 95);
+  color: rgb(253, 120, 97);
+}
